@@ -11,6 +11,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-sec">
@@ -77,6 +78,23 @@
         <ul>
           <li>git status: checks what branch we are currently in</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git pull: fetch and merge any commits from the tracking remote branch</li>
+          <li>git push [alias]/[branch]: transmit local branch to the remote repository branch</li>
+          <li>git commit -m "": commit your staged content as a new commit snapshot</li>
+          <li>git merge [branch]: merge the specified branche's history into your working directory</li>
+          <li>git log: shows all commits in the current branches history</li>
+          <li>Organization: a way of grouping and allowing teams to collaborate across many projects at once</li>
+          <li>Repository (repo): a folder in which all files and their version histories are stored</li>
+          <li>Branch: a version of the repo that allows work without affecting other branches. Repos may have many branches for different possible changes being tested or considered, along with a default branch that serves as the source of truth</li>
+          <li>Fork: a new repository that inherits from a parent “upstream” repo. It is used to suggest changes to an “upstream” public repo by someone who doesn’t have access to edit in the repo’s home org</li>
+          <li>Markdown (.md):a way to write content that converts plain text to formatted text.</li>
+          <li>Commit Changes: a saved record of a change made to a file within the repo</li>
+          <li>Pull Request (PR): a request for changes made to a branch to be pulled into another branch. Allows multiple users to see, discuss and review work being suggested</li>
+          <li>Merge: after a pull request is approved, the commit will be pulled in (or merged) from one branch to another and then, deployed on the live site</li>
+          <li>Issues: allow users to report issues or bugs and track progress of assigning the fix for the issues</li>
+          <li>Federalist: a platform that securely deploys a website from a GitHub repository in minutes and lets users preview proposed and published changes</li>
+          <li>Projects: allows you to use GitHub for project management and tracking a set of issues, either for a specific repo or an entire org</li>
+          <li>Wiki — a section of a repo made for hosting documentation. Documentation may be in the repo’s README files instead</li>
         </ul>
 
       </section>
@@ -85,7 +103,60 @@
 
         <h2>Javascript</h2>
         <ul>
-          <li>Enter your Javascript notes here</li>
+          <li>A variable is a named container that allows us to store data in our code</li>
+          <li>Control flow is the order in which a computer executes code in a script</li>
+          <li>Browser Application Programing Interfaces (APIs) built into web browsers providing functionality such as dynamically creating HTML and setting CSS styles; collecting and manipulating a video stream from a users webcam, or generating 3D graphics and audio samples</li>
+          <li>Good Practice to have semicolon at the end of each statement</li>
+          <li>JavaScript is case sensitive</li>
+          <li>Can retrieve value by calling variable name, can change value later in code</li>
+          <li>String: Sequence of text, to signify enclose it with single or double quotes</li>
+          <li>Number: just a number, does not have quotes</li>
+          <li>Boolean: true or false value, special keywords that do not need quotes</li>
+          <li>Array: Structure that allows you to store multiple values in a single reference</li>
+          <li>object: can be anything, everything in Java is an object and can be stored as a value</li>
+          <li>Comments: Snippets of text added in code, browser ignored this text</li>
+          <li>Operator: Mathmateical symbol that provides a result based on two values or variables</li>
+          <li>Addition:+: adds two numbers together or combines strings</li>
+          <li>Subtraction:-, Multiplication:*, Division:/; all do as you expect in math</li>
+          <li>Assignment:=: this assigns a value to a variable</li>
+          <li>Strict Equality:===: this performs a test to see if two values are equal and of the same data type</li>
+          <li>Not, Does-not-equal:!,!==: returns the logically opposite value of what it precedes. Turns true into false. When used alongside the Equality Operator, the negation operator tests whether two values are not equal</li>
+          <li>Conditionals: Code structures used to test if an expression returns true or not</li>
+          <li>Functions: way of packaging functionality that you wish to reuse</li>
+          <li>Argumnents: data functions need to do their job, go inside ()</li>
+          <li>Primitive Data: used to store simple pieces of data</li>
+          <li>Null Type: inhabited by one value - null, indicates absense of an object</li>
+          <li>Undefined type: inhabited by one value - undefined, indicates the absense of a value</li>
+          <li>Boolean Type: true or false, used for conditional operations</li>
+          <li>Number type: a double-precision 64-bit binary format IEEE 754 value</li>
+          <li>NaN: Not a Number: a kind of number that is encountered when the result of an arithmetic operation can't be expressed as a number, only value in Java not equal to it self</li>
+          <li>BigInt: a numeric primitive that can represent integers with arbitary magnitude</li>
+          <li>String: type represents textual data and is encoded as a sequence of 16-bit unsigned integer values representing UTF-16 code units</li>
+          <li>JavaScript Strings are immutable, meaning once a string is created it cannot be changed</li>
+          <li>Use strings for textual data. When representing complex data, PARSE STRINGS, and use the appropriate abstraction</li>
+          <li>Symbol Type: unique and immutable primitive value and may be used as the key of an object property</li>
+          <li>Object: a value in memory which is possibly referenced by an integer</li>
+          <li>Data Property: associate a key with a value</li>
+          <li>Attributes that describe it: </li>
+          <li>Value- value by a get access of the property</li>
+          <li>Writable- boolean value indicating if the property can be changed with an assginment</li>
+          <li>Enumerable- boolean value indicating if the property can be enumerated by a "for...in" loop</li>
+          <li>Configurable- Boolean value indicating if the property can ne deleted, can be changed to an assessor property, can have its attributes changes</li>
+          <li>Accesor Property: associates a key with one of two accessor functions (get and set) to retrieve or store a value</li>
+          <li>Has the following attributes:</li>
+          <li>get- function called with an empty argumnent list to retrieve the property value whenever a get access to the value is preformed, may be undefined</li>
+          <li>set- function called with an argumnentthat contains the assigned value, executed whenever a specific property is attempted to be changed, may be undefined</li>
+          <li>Enumerable- see above</li>
+          <li>Configurable- see above, can be changed to a data property</li>
+          <li>When representing dates, best choice is to use built-in "Date" utility</li>
+          <li>Control Flow - order in which a computer executes code in a script</li>
+          <li>Arrays: regular objects for which there is a particular relationship between integer-keyed properties and the length property</li>
+          <li>Typed Arrays: present an array-like view of an underlying binary data buffer, and offer many methods that have similar semantics to the array counterparts</li>
+          <li>Set and WeakSet represent a collection of unique values, while Map and WeakMap represent a collection of key-value associations</li>
+          <li>JSON (JavaScript Object Notation) is a lightweight data-interchange format, derived from JavaScript, but used by many programming languages</li>
+          <li>PRIMITIVE COERCION process is used where a primitive value is expected, but there's no strong preference for what the actual type should be</li>
+          <li>Numeric coercion- the automatic conversion of values from one data type to another</li>
+          <li>"For" Loops: 1- keyword "for", 2- Three part conditional statement, 3- code block</li>
         </ul>
 
       </section>
@@ -94,5 +165,9 @@
     <footer>
       <p>I can code!</p>
     </footer>
+
+    <script src="./assets/script.js"></script>
+
   </body>
+
 </html>
